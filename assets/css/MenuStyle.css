@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.header {
+    padding: 29px 0px;
+    width: 100%;
+    background: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 500;
+}
+
+.back {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    width: 100%;
+    background: #817070;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user__data {
+    display: flex;
+    padding-top: 86px;
+    gap: 64px;
+}
+
+#name, #surname {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    background: #817070;
+    outline: none;
+    color: white;
+    border: 3px solid white;
+    padding: 8px 40px;
+    text-align: center;
+    margin-bottom: 84px;
+}
+
+::placeholder {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.products {
+    display: flex;
+    margin-bottom: 40px;
+    gap: 100px;
+}
+
+#food1_cnt, #food2_cnt, #food3_cnt, #food4_cnt, #food5_cnt, #food6_cnt, #food7_cnt {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    background: #817070;
+    outline: none;
+    color: white;
+    border: 3px solid white;
+    text-align: center;
+    padding: 5px 0;
+    width: 50px;
+    float: right;
+    margin-left: 20px;
+}
+
+.content {
+    text-align: center;
+}
+
+.result {
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+}
+
+.btn {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    color: #817070;
+    transition: 0.5s;
+    background: white;
+    padding: 13px 20px;
+    margin-bottom: 35px;
+    border: none;
+}
+
+.btn:hover {
+    background: #817070;
+    color: white;
+    cursor: pointer;
+}
+
+.data {
+    margin: 10px 0px;
+}
+
+.column {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+label {
+    color: #FFFFFF;
+    cursor: pointer;
+  }
+
+  label:before {
+    content: " ";
+    color: #000;
+    display: inline-block;
+    font: 20px/30px Arial;
+    margin-right: 15px;
+    position: relative;
+    text-align: center;
+    text-indent: 0px;
+    width: 30px;
+    height: 30px;
+    background: #FFF;
+    border: 3px solid #FFFFFF;
+    border-image: initial;
+    vertical-align: middle;
+  }
+   
+  input:checked + label:before {
+    background: #644b4b;;
+  }
